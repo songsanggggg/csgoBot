@@ -11,12 +11,9 @@
 还有ai对话等等
 
 
-主要开始使用时候要修改的有index.js中的account填入机器人qq
+主要开始使用时候要修改的有
 
-           redisPort填入redis端口
-           
-           redisUrl填入redis地址
-           
+index.js中的account填入机器人qq redisPort填入redis端口 redisUrl填入redis地址
            
 plugin-other.js中master填入自己qq
 
@@ -30,3 +27,5 @@ bilibili直播提醒还未开始写qwq（理解万岁
 官匹数据查询主要问题在于请求url中有一个sign参数不知来源无法继续完成
 
 5e方面数据查询因为本人不玩5e就没有写qwq（理解万岁
+
+如果有其他问题可以发送电子邮件至bxgh6_xivkv71ra8@163.com
