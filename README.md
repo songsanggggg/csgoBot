@@ -26,7 +26,7 @@ plugin-BilibiliLive.js与plugin-offical.js本为bilibili直播提醒和csgo官�
 
 bilibili直播提醒还未开始写qwq（理解万岁
 
-官匹数据查询主要问题在于请求url中有一个sign参数不知来源无法继续完成
+官匹数据查询与2023/1/21完成
 
 5e方面数据查询因为本人不玩5e就没有写qwq（理解万岁
 
