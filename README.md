@@ -17,7 +17,9 @@ index.js中的account填入机器人qq redisPort填入redis端口 redisUrl填入
            
 plugin-other.js中master填入自己qq
 
-plugin-wanmei.js中token和device填入自己抓包的结果
+plugin-wanmei.js中token和device填入自己抓包的结果master填入自己qq
+
+plugin-offical.js中token和device填入自己抓包的结果master填入自己qq
 
 
 plugin-BilibiliLive.js与plugin-offical.js本为bilibili直播提醒和csgo官匹数据查询但是还未完成
