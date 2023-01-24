@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./index.js",
-    "start": "forever start  ./index.js",
-    "stop": "forever stop ./index.js"
+    "start": "pm2 start ./config/pm2/pm2.json",
+    "stop": "pm2 stop ./config/pm2/pm2.json",
+    "restart": "pm2 restart ./config/pm2/pm2.json",
+    "log": "pm2 logs --lines 400 csgoBot"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "dayjs": "^1.11.7",
+    "node-schedule": "^2.1.1",
     "oicq": "^2.2.0",
     "redis": "^3.1.2"
   },
