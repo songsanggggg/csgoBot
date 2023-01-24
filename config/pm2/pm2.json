@@ -4,7 +4,7 @@
         "name": "csgoBot",
         "script": "./index.js",
         "max_memory_restart": "512M",
-        "restart_delay": 60000
+        "restart_delay": 6000
       }
     ]
   }
