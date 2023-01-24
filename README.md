@@ -21,13 +21,17 @@ plugin-wanmei.js中token和device填入自己抓包的结果master填入自己qq
 
 plugin-offical.js中token和device填入自己抓包的结果master填入自己qq
 
+plugin-bilibiliLive.js中master填入自己的qq号
+
 
 plugin-BilibiliLive.js与plugin-offical.js本为bilibili直播提醒和csgo官匹数据查询但是还未完成
 
-bilibili直播提醒还未开始写qwq（理解万岁
+bilibili直播提醒与2023/1/24完成
 
 官匹数据查询与2023/1/21完成
 
-5e方面数据查询因为本人不玩5e就没有写qwq（理解万岁
+5e定级赛刚打完准备开始着手写啦
+
+buff方面的饰品查询也在写
 
 如果有其他问题可以发送电子邮件至bxgh6_xivkv71ra8@163.com
