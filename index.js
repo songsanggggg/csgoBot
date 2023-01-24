@@ -1,8 +1,8 @@
 const { createClient } = require("oicq")
 const redis = require('redis')
 
-const account = ""
-let redisPort = ""
+const account = 
+let redisPort = 
 let redisUrl = ""
 
 const redisClient = redis.createClient(redisPort, redisUrl)
@@ -25,6 +25,17 @@ redisClient.on('ready', () => {
 redisClient.on('error', err => {
 	console.err(err)
 })
+redisClient.synGet = async(key) => {
+    const newGet = async(key) => {
+        let val = await new Promise((resolve => {
+            redisClient.get(key, function (err, res) {
+                return resolve(res);
+            });
+        }));
+        return JSON.parse(val);
+    };
+    return await newGet(key);
+}
 
 //加载功能
 import("./lib/plugin-request.js")
@@ -34,6 +45,8 @@ import("./lib/plugin-help.js")
 import("./lib/plugin-other.js")
 import("./lib/plugin-offical.js")
 import("./lib/plugin-ai.js")
+import("./lib/plugin-BilibiliLive.js")
+
 
 process.on("unhandledRejection", (reason, promise) => {
 	console.log('Unhandled Rejection at:', promise, 'reason:', reason)
