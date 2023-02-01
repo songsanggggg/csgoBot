@@ -46,6 +46,7 @@ import("./lib/plugin-other.js")
 import("./lib/plugin-offical.js")
 import("./lib/plugin-ai.js")
 import("./lib/plugin-BilibiliLive.js")
+import("./lib/plugin-buff.js")
 
 
 process.on("unhandledRejection", (reason, promise) => {
