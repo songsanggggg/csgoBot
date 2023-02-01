@@ -23,8 +23,7 @@ plugin-offical.js中token和device填入自己抓包的结果master填入自己q
 
 plugin-bilibiliLive.js中master填入自己的qq号
 
-
-plugin-BilibiliLive.js与plugin-offical.js本为bilibili直播提醒和csgo官匹数据查询但是还未完成
+plugin-buff.js中master填入自己qq,cookie填入自己buff的cookie
 
 bilibili直播提醒与2023/1/24完成
 
@@ -32,6 +31,6 @@ bilibili直播提醒与2023/1/24完成
 
 5e定级赛刚打完准备开始着手写啦
 
-buff方面的饰品查询也在写
+buff方面的饰品查询与2023/2/1完成
 
 如果有其他问题可以发送电子邮件至bxgh6_xivkv71ra8@163.com
