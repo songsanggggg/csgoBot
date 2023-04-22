@@ -10,26 +10,17 @@
 
 还有ai对话等等
 
+主要开始使用时候要修改的有config目录中csgo和bot文件夹中内容
 
-主要开始使用时候要修改的有
-
-index.js中的account填入机器人qq redisPort填入redis端口 redisUrl填入redis地址
-           
-plugin-other.js中master填入自己qq
-
-plugin-wanmei.js中token和device填入自己抓包的结果master填入自己qq
-
-plugin-offical.js中token和device填入自己抓包的结果master填入自己qq
-
-plugin-bilibiliLive.js中master填入自己的qq号
-
-plugin-buff.js中master填入自己qq,cookie填入自己buff的cookie
+需要ffmpeg才能使用ai与点歌功能
 
 bilibili直播提醒与2023/1/24完成
 
+bilibili开播提醒默认关闭插件,开启请阅读index.js注释
+
 官匹数据查询与2023/1/21完成
 
-5e定级赛刚打完准备开始着手写啦
+5e定级赛刚打完准备开始着手写啦,目前还是鸽子
 
 buff方面的饰品查询与2023/2/1完成
 
