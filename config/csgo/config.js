@@ -1,4 +1,4 @@
-exports.config = {
+export const config = {
     wanmei: {
         token:"",
         device:"",

@@ -1,4 +1,4 @@
-exports.config = {
+export const config = {
     account: {
         qq: 1234567890,
         password: "",
