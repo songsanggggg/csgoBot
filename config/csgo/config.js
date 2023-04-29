@@ -12,4 +12,8 @@ export const config = {
         token:"",
         device:"",
     },
+
+    postGroup:[
+        123456,
+    ]
 };
