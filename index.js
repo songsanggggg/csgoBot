@@ -73,7 +73,7 @@ import("./lib/plugin-help.js")
 import("./lib/plugin-other.js")
 import("./lib/plugin-offical.js")
 import("./lib/plugin-ai.js")
-import("./lib/plugin-buff.js")
+import("./lib/plugin-buffSearch.js")
 //import("./lib/plugin-BilibiliLive.js") //bilibili开播提醒默认关闭插件
 //import("./lib/plugin-csgoNews.js") //csgo资讯
 
