@@ -1,4 +1,4 @@
-export const config = {
+exports.config = {
     up: [
         {
             uid: 123456,
